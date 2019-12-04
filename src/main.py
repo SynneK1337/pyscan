@@ -12,9 +12,9 @@ if __name__ == "__main__":
     if not args.ipv6:
         result = scanner.scan_ipv4_tcp(args.hostname, args.port)
         if result:
-            print(f"[+] {args.hostname}:{args.port}/udp is open.")
+            print(f"[+] {args.hostname}:{args.port}/tcp is open.")
         elif result is False:
-            print(f"[-] {args.hostname}:{args.port}/udp is closed.")
+            print(f"[-] {args.hostname}:{args.port}/tcp is closed.")
         else:
             print(f"[!] {args.hostname} is inaccessible.")
 
