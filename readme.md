@@ -8,8 +8,7 @@ positional arguments:
   port        Port you want to scan
 
 optional arguments:
-  -h, --help  show this help message and exit
-  -u          Scan UDP instead of TCP. (default: False)      
+  -h, --help  show this help message and exit  
   -ipv6       Scan IPv6 instead of IPv4 (default: False)     
 usage: pyscan [-h] [-u] [-ipv6] hostname port
 ```
